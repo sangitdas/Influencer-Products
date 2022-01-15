@@ -50,10 +50,20 @@ nav a {
     padding: 5px;
     border-radius: 20px;
 }
+/*--------------
+     company 
+---------------*/
+.company-add{
+    display: flex;
+    margin-left: 350px;
+    padding: 25px;
+}
+.company-add img{
+    margin-right: 30px;
+}
 /*-----------------
  collection styles 
 -----------------*/
-
 .container h2{
     font-size: 2em;
     margin-left: 500px;
@@ -138,4 +148,13 @@ nav a {
     color: rgb(255, 255, 255);
     font-weight: 700;
     border-radius: 20px;
+}
+/*--------------- 
+     footer 
+----------------*/
+footer{
+	text-align: center;
+	background-color: rgb(12, 12, 53);
+	color: #ffffff;
+	padding: 10px 0;
 }
