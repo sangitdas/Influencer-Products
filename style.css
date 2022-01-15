@@ -1,0 +1,141 @@
+/*-----------
+    fonts 
+ ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-------------------
+  header area start 
+--------------------*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3em;
+    margin-right: 20px;
+}
+.header{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 1.2em;
+}
+.body-1{
+    display: flex;
+}
+.content{
+    margin-left: 80px;
+    margin-right: 600px;
+}
+.content h1{
+    font-size: 3em;
+}
+.body-1 i{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.body-1 a{
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.body-1 button{
+    background-color: rgb(240, 24, 132);
+    padding: 5px;
+    border-radius: 20px;
+}
+/*-----------------
+ collection styles 
+-----------------*/
+
+.container h2{
+    font-size: 2em;
+    margin-left: 500px;
+    font-weight: 700;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    padding: 100px;
+}
+.courses p{
+    margin-right: 150px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-duration{
+    background-color: rgb(252, 225, 225);
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(245, 59, 121);
+}
+.course-author{
+    color: rgb(245, 59, 121);
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.courses a{
+    text-decoration: none;
+    color: rgb(240, 24, 132);
+    padding: 20px;
+}
+
+/*----------------------------
+     collection style end 
+----------------------------*/
+
+
+/*------------------------ 
+      featured style 
+-------------------------*/
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.flexible-container a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.flexible-container h1{
+    font-size: 2em;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.half-width img{
+    width: 80%;
+    margin-left: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(240, 24, 132);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-radius: 20px;
+}
